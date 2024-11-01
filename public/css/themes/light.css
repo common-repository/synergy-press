@@ -1,0 +1,91 @@
+/**
+ * SynergyPress WordPress plugin.
+ * Interactions theme file: white and white-translucent.
+ *
+ * @link    https://formsynergy.com/synergypress-wordpress-plugin/
+ * @version 1.6.0
+ * @since   1.0
+ * @package synergy-press
+ */
+ 
+ #fs-body h1 :not(span) > *, 
+ #fs-body h2 :not(span) > *, 
+ #fs-body h3 :not(span) > *, 
+ #fs-body h4 :not(span) > *, 
+ #fs-body h5 :not(span) > *, 
+ #fs-body h6 :not(span) > *, 
+ #fs-body p :not(span) > *,
+ #fs-body label:not(.custom-control-label) {
+	color:#6c757d;
+	mix-blend-mode: difference;
+}
+ #fs-body label span {
+    color:#6c757d;
+    font-weight: 500;
+ }
+ 
+
+
+.fs-opw.placement-bottom.fs-white .fs-opw__arrow,
+.fs-opw.placement-bottom-start.fs-white .fs-opw__arrow,
+.fs-opw.placement-bottom-end.fs-white .fs-opw__arrow,
+.fs-opw.placement-bottom.fs-white-translucent .fs-opw__arrow,
+.fs-opw.placement-bottom-start.fs-white-translucent .fs-opw__arrow,
+.fs-opw.placement-bottom-end.fs-white-translucent .fs-opw__arrow {
+    border-bottom-color: rgba(255, 255, 255, 0.836);
+}
+
+#fs-container .fs-white-translucent {
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.836);
+    border-radius: 0.15rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.233), 0 0 105px rgba(0, 0, 0, 0.612);
+}
+
+#fs-container .fs-white {
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.15rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.233), 0 0 105px rgba(0, 0, 0, 0.612);
+}
+
+.fs-opw.placement-right.fs-white .fs-opw__arrow,
+.fs-opw.placement-right-start.fs-white .fs-opw__arrow,
+.fs-opw.placement-right-end.fs-white .fs-opw__arrow,
+.fs-opw.placement-right.fs-white-translucent .fs-opw__arrow,
+.fs-opw.placement-right-start.fs-white-translucent .fs-opw__arrow,
+.fs-opw.placement-right-end.fs-white-translucent .fs-opw__arrow {
+    border-right-color: rgba(255, 255, 255, 0.836);
+}
+
+.fs-opw.placement-top.fs-white-translucent .fs-opw__arrow,
+.fs-opw.placement-top-start.fs-white-translucent .fs-opw__arrow,
+.fs-opw.placement-top-end.fs-white-translucent .fs-opw__arrow,
+.fs-opw.placement-top.fs-white .fs-opw__arrow,
+.fs-opw.placement-top-start.fs-white .fs-opw__arrow,
+.fs-opw.placement-top-end.fs-white .fs-opw__arrow {
+    border-top-color: rgba(255, 255, 255, 0.836);
+}
+
+.fs-opw.placement-left.fs-white .fs-opw__arrow,
+.fs-opw.placement-left-start.fs-white .fs-opw__arrow,
+.fs-opw.placement-left-end.fs.fs-white .fs-opw__arrow,
+.fs-opw.placement-left.fs-white-translucent .fs-opw__arrow,
+.fs-opw.placement-left-start.fs-white-translucent .fs-opw__arrow,
+.fs-opw.placement-left-end.fs-white-translucent .fs-opw__arrow {
+    border-left-color: rgba(255, 255, 255, 0.836);
+}
+
+
+#fs-container .custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #007bff;
+    background-color: #007bff;
+}
+
+#fs-container .custom-switch .custom-control-input:checked~.custom-control-label::after {
+    background-color: #fff;
+    -webkit-transform: translateX(.75rem);
+    transform: translateX(.75rem);
+}
+ 
